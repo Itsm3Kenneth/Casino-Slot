@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#nav{
+    background: #161E19;
+    padding: 70px;
+}
+
+.name{
+    text-align: center;
+    font-size: 35px;
+}
+
+.container{
+    width: 400px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+span{
+    font-size: 80px;
+    border-bottom: 5px solid  #100B00;
+}
+
+.spin-btn{
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    border: 0;
+    border-radius: 10px;
+    background-color: goldenrod;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(90%, -50%);
+}

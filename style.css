@@ -12,6 +12,19 @@ body{
     padding: 70px;
 }
 
+.link{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.link:hover{
+    background-color: aliceblue;
+    color: #161E19;
+}
+
 .container{
     width: 75%;
     margin: 0 auto;
